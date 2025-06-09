@@ -1,4 +1,4 @@
-# actions/map_handler.py
+
 import time
 import math
 import pyautogui
@@ -18,7 +18,7 @@ ENTRANCE_CONFIDENCE = 0.6    # 입장 버튼 검출 신뢰도
 # ─────────────────────────────
 
 
-# 카테고리별 템플릿 (우선순위에 따라)
+# 카테고리별 템플릿 (우선순위 구분)
 MAP_CANDIDATES = {
     "choice": ["images/map_choice.png", "images/map_choice_2.png", "images/map_choice_3.png"],         # 예: ? 선택지 맵
     "normal": ["images/map_normal_1.png", "images/map_normal_2.png"],   # 일반 전투 맵

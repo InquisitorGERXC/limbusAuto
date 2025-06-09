@@ -1,5 +1,3 @@
-# preset_config.py
-
 # 각 preset별 편성 캐릭터 이미지 목록
 PRESET_DATA = {
     "preset_a": ["images/char_heishou_faust.png", "images/char_heishou_ryoshu.png", "images/char_family_ishmael.png", "images/char_heishou_rodion.png",

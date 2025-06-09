@@ -1,4 +1,4 @@
-# actions/screen_detector.py
+# 화면 감지
 import cv2
 import numpy as np
 import pyautogui

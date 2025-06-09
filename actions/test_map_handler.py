@@ -1,4 +1,4 @@
-# actions/test_map_handler.py
+# 테스트용 python 모듈.
 import sys
 import os
 # 프로젝트 루트 디렉터리 추가

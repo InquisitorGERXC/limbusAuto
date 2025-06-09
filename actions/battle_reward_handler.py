@@ -151,6 +151,7 @@ def select_ego_gift():
 
     return True
         
+# EGO gift 수령 버튼
 def get_ego_gift():
     time.sleep(0.5)
     popup_gift_pos = safe_locate_center("images/popup_confirm.png")

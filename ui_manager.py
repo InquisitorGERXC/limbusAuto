@@ -1,4 +1,4 @@
-# ui_manager.py
+# UI 구성.
 import tkinter as tk
 import threading
 from automation import run_automation

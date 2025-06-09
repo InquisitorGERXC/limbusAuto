@@ -1,4 +1,4 @@
-# actions/battle_handler.py
+
 import time
 import pyautogui
 import global_state

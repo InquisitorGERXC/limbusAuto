@@ -39,7 +39,7 @@ def select_theme_pack():
                 pyautogui.dragRel(0, 450, duration=0.5)
                 pyautogui.mouseUp()
                 chosen_template = theme_filename
-                log_error(f"테마 선택 완료: {theme_filename}")
+                log_info(f"테마 선택 완료: {theme_filename}")
                 selected = True
                 break
             except Exception as e:
@@ -48,12 +48,12 @@ def select_theme_pack():
         log_error("화면에 적절한 테마팩이 감지되지 않음.")
 
     # 테마 선택 후 로그와 대기
-    log_error("테마 선택 완료 후 4초 대기 - 맵 화면 전환 대기")
+    log_info("테마 선택 완료 후 4초 대기 - 맵 화면 전환 대기")
     time.sleep(4)
 
     # 선택 후 현재 화면 상태 재점검
     state = get_current_state()  # get_current_state()를 호출해 현재 상태를 확인
-    log_error("테마 선택 후 현재 상태: " + state)
+    log_info("테마 선택 후 현재 상태: " + state)
 
     
 

@@ -1,4 +1,4 @@
-# actions/choice_handler.py
+
 import time
 import pyautogui
 from utils.logger import log_error, log_info

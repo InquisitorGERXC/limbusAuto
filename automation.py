@@ -45,13 +45,13 @@ def run_automation(preset):
                 log_error("[Automation] 초기 단계 확인 중 오류: " + str(e))
                 preset_status = None
             if preset_status is None:
-                log_error("[Automation] 초기 단계가 완료된 것으로 간주합니다.")
+                log_info("[Automation] 초기 단계가 완료된 것으로 간주합니다.")
                 initial_phase_done = True
                 # 초기 단계가 완료된 후 현재 화면 상태를 한 번 확인
                 current_state = get_current_state()
-                log_error(f"[Automation] 현재 화면 상태: {current_state}")
+                log_info(f"[Automation] 현재 화면 상태: {current_state}")
             else:
-                log_error("[Automation] 초기 단계 작업 진행 중... 계속 대기")
+                log_info("[Automation] 초기 단계 작업 진행 중... 계속 대기")
                 time.sleep(1)
                 continue
 
@@ -65,7 +65,7 @@ def run_automation(preset):
                 continue
 
             if current_state == "result":
-                print("결과 화면 확인 – 던전 종료. 자동화 종료합니다.")
+                log_info("결과 화면 확인 – 던전 종료. 자동화 종료합니다.")
                 result_handler.process_result_screen()
                 if result_handler.process_result_screen() :
                     log_info("결과화면 process 완료.")

@@ -1,4 +1,4 @@
-# main.py
+
 from ui_manager import run_ui
 
 if __name__ == "__main__":

@@ -26250,3 +26250,7 @@ UnboundLocalError: cannot access local variable 'reward_confirm' where it is not
 [2025-06-07 19:39:57] ERROR: [safe_locate_center] 이미지 미검출: images/result_screen.png
 [2025-06-07 19:39:58] ERROR: [safe_locate_center] 이미지 미검출: images/result_screen.png
 [2025-06-07 19:39:58] ERROR: 종료 단축키(ctrl+c)가 눌렸습니다. 프로그램을 강제 종료합니다.
+[2025-06-09 18:21:35] ERROR: 이미지 로드/탐색 중 예외 발생 (e:\openCV\limbus_auto2\utils\images/driver_seat.png): Failed to read e:\openCV\limbus_auto2\utils\images/driver_seat.png because file is missing, has improper permissions, or is an unsupported or invalid format
+[2025-06-09 18:21:36] ERROR: 이미지 로드/탐색 중 예외 발생 (images/dungeon.png): 
+[2025-06-09 18:21:37] ERROR: 이미지 로드/탐색 중 예외 발생 (images/entrance.png): 
+[2025-06-09 18:22:58] ERROR: 종료 단축키(ctrl+c)가 눌렸습니다. 프로그램을 강제 종료합니다.
