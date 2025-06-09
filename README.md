@@ -5,3 +5,4 @@ Auto Script
 
 pyautogui, opencv
 
+https://youtu.be/4LS3eBqR-4c
